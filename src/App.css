@@ -1,0 +1,96 @@
+/* THIS IS SOME VERY POORLY CODED CSS PLEASE DON'T TAKE THIS IN CONSIDERATION. DIDN'T WANT TO SPEND TOO MUCH TIME ON IT. */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+p,h2 {
+  color: white;
+}
+
+.pagedesc {
+  font-size: 1em;
+  white-space: nowrap;
+}
+
+.lolprofileicon {
+  border-radius: 50%;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  margin-bottom: auto;
+}
+
+.lolusername {
+  margin-top: 35%;
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.loluserlevel {
+  margin-right: 3%;
+  margin-top: 10%;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background-image: url("https://imgur.com/KF6IMOX.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 21%;
+  height: 80%;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 25% 5% 33% 35%;
+  margin-left: 40%;
+}
+
+.App {
+  text-align: center;
+  background-image: url("http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Velkoz_0.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
