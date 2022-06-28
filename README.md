@@ -1,4 +1,4 @@
-# Just made this to check how the league of legends API works.
+# Just made this to check how the league of legends API works. This project is absolutely useless as of now.
 
 # Getting Started with Create React App
 
